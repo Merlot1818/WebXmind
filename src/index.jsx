@@ -12,7 +12,6 @@ moment.prototype.YMDHms = function () {
 import {Layout} from 'antd';
 import Login from './Home/Login/Login';
 import Register from './Home/Login/Register';
-import Header from './Home/header';
 import Test1 from './components/test1';
 import Test2 from './components/test2';
 import VoiceButton from './components/voiceBtn';
@@ -36,7 +35,6 @@ class Root extends React.Component{
         const children = this.props.children;
         return (
             <Layout className='layout'>
-                <Header/>
                 <Content className={styles.pageContent}>
                     {
                         children && children || null
