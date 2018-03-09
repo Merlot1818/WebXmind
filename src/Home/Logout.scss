@@ -1,9 +1,9 @@
-.container{
+.btn{
   position: fixed;
   bottom: 2%;
-  right: 2%;
-  font-size: 14px;
+  right: calc(2% + 10em);
   width: 8em;
+  font-size: 14px;
   line-height: 20px;
   text-align: center;
 }

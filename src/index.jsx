@@ -11,6 +11,7 @@ moment.prototype.YMDHms = function () {
 };
 import {Layout} from 'antd';
 import Login from './Home/Login/Login';
+import Logout from './Home/Logout';
 import Register from './Home/Login/Register';
 import Test1 from './components/test1';
 import Test2 from './components/test2';
@@ -41,6 +42,7 @@ class Root extends React.Component{
                     }
                 </Content>
                 <VoiceButton/>
+                <Logout/>
             </Layout>
         );
     }
