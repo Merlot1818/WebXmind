@@ -1,10 +1,6 @@
-# react-redux-antd-koa2-admin
-  >a React + Koa2 starter kit, support login and logout
-* React 
-* Redux + react-redux-router + redux-saga
-* Koa2 + webSocket
-* neo4j
-  >database to store user-info and application data. 
+# WebXmind
+  >A WebApp similar to Xmind. Implement D3 or Canvas
+  
 ## Usage
 1. npm install --production
 2. npm run startProduction
